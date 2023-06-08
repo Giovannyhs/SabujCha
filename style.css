@@ -1,12 +1,16 @@
+. {
+  font-family: "Lora", serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Work Sans", sans-serif;
+}
 .header {
   margin-top: 2%;
   display: grid;
-  grid-template-columns: auto auto auto;
 }
 .menu {
   display: flex;
   justify-content: space-around;
-  width: 75%;
+  width: 50%;
   grid-column-start: 1;
   grid-column-end: 2;
   list-style: none;
@@ -16,10 +20,9 @@
   color: #333333;
 }
 .logo-header {
-  margin-left: auto;
-  margin-right: auto;
   grid-column-start: 2;
   grid-column-end: 3;
+  margin: auto;
 }
 .carrito a {
   text-decoration: none;
@@ -41,4 +44,25 @@
 .carrito .imgcar {
   width: 100%;
   height: 70%;
+}
+.box-1 {
+  background-image: url(./Imagenes/slider-2.jpg);
+  width: 95%;
+  height: 720px;
+  margin-left: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.box-1 h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  font-weight: 100;
+  text-align: center;
+}
+.box-1 p a {
+  font-family: "Lora", serif;
+  color: #000000;
+  font-weight: bold;
 }
