@@ -1,7 +1,10 @@
-. {
+* {
   font-family: "Lora", serif;
   font-family: "Playfair Display", serif;
   font-family: "Work Sans", sans-serif;
+}
+.h1 .h2 {
+  font-family: "Playfair Display", serif;
 }
 .header {
   margin-top: 2%;
