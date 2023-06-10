@@ -69,17 +69,19 @@
   font-weight: bold;
 }
 .box-2 {
+  height: 27px;
   justify-content: center;
   display: grid;
   grid-template-columns: auto auto;
-  gap: 10px;
-  margin-top: 5%;
+  gap: 25px;
+  margin-top: 50px;
 }
+
 .box-2-img-1 {
-  margin-top: -40px;
+  height: 270px;
 }
 .content-1 a {
-  width: 600px;
+  width: 570px;
   text-decoration: none;
 }
 .content-1 {
@@ -87,11 +89,10 @@
   background-repeat: no-repeat;
   width: 600px;
   height: 280px;
-  align-items: center;
   justify-content: left;
 }
 .content-2 a {
-  width: 600px;
+  width: 570px;
   text-decoration: none;
 }
 .content-2 {
@@ -99,13 +100,14 @@
   background-repeat: no-repeat;
   width: 600px;
   height: 280px;
-  align-items: center;
   justify-content: left;
 }
+
 .box-2 a h3 {
   font-family: "Lora", serif;
   color: #529f0f;
   margin-left: 8%;
+  margin-top: 90px;
   font-size: 40px;
   text-decoration: none;
   font-weight: lighter;
