@@ -123,9 +123,11 @@ header {
 .box-3 {
   background-image: url(./Imagenes/bg-1.jpg);
   background-position: center;
+
   margin: 2% 2%;
   margin-top: 400px;
   height: 700px;
+  gap: 5px;
 }
 .box-3-products {
   position: relative;
@@ -178,7 +180,7 @@ header {
   top: 30px;
 }
 span {
-  color: #0a0a0a;
+  color: #000000;
 }
 .product-img-2 {
   margin-right: 50px;
