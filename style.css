@@ -126,6 +126,7 @@ header {
   padding-top: 20px;
   margin: 2% 2%;
   margin-top: 400px;
+
   height: 700px;
   gap: 5px;
 }
@@ -228,9 +229,14 @@ span {
   font-size: 12px;
 }
 .box-5 {
-  margin: 50px 50px 2% 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  height: 1100px;
+  justify-content: center;
   background: fixed;
   background-color: #f5f5f5;
+  background-repeat: no-repeat;
+
   padding: 80px;
 }
 .box-5-new {
@@ -256,4 +262,80 @@ span {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 
   margin: 50px 150px 150px;
+}
+.new-img a {
+  text-decoration: none;
+}
+.new-img p {
+  text-align: center;
+  position: relative;
+  color: rgb(250, 245, 245);
+  top: -290px;
+  margin-left: 10px;
+  width: 50px;
+  height: 50px;
+  background: #529f0f;
+  border-radius: 360%;
+  align-items: center;
+  text-decoration: none;
+}
+.porce-1 p {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  font-weight: bold;
+}
+.img-text-1 {
+  color: #575757;
+  position: relative;
+  top: 30px;
+  line-height: 30px;
+}
+.box-6 {
+  background-image: url(./Imagenes/bg-2.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  height: 500px;
+  margin-top: 0%;
+  justify-content: center;
+}
+.box-imput {
+  text-align: center;
+}
+.box-imput h2 {
+  font-size: 50px;
+  font-family: "Playfair Display", serif;
+  font-weight: lighter;
+  color: #333333;
+}
+.box-imput .sub {
+  display: flex;
+  padding-top: 30px;
+}
+.ema {
+  background: none;
+  color: #6d6a6a;
+  height: 80px;
+  width: 500px;
+  border-style: solid;
+  border-color: #e0dbdb;
+  border-width: 1px;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+  text-decoration: none;
+}
+.subs {
+  background: #000000;
+  width: 200px;
+  height: 80px;
+  color: #f5f5f5;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
