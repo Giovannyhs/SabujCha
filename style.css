@@ -180,15 +180,19 @@ header {
 }
 .img-text {
   color: #575757;
+  font-family: "Lora", serif;
+  font-size: 20px;
   position: relative;
   top: -50px;
-  line-height: 30px;
+  line-height: 40px;
 }
 .img-text1 {
   color: #575757;
   position: relative;
+  font-family: "Lora", serif;
+  font-size: 20px;
   top: 30px;
-  line-height: 30px;
+  line-height: 40px;
 }
 span {
   color: #000000;
@@ -285,12 +289,15 @@ span {
   text-align: center;
   display: flex;
   font-weight: bold;
+  font-family: "Lora", serif;
 }
 .img-text-1 {
   color: #575757;
+  font-family: "Lora", serif;
+  font-size: 20px;
   position: relative;
   top: 30px;
-  line-height: 30px;
+  line-height: 40px;
 }
 .box-6 {
   background-image: url(./Imagenes/bg-2.jpg);
@@ -338,4 +345,54 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.box-7 {
+  background-image: url(./Imagenes/bg-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20px;
+  margin: 0 2% 2%;
+  height: 1000px;
+}
+.box-7-title {
+  display: flex;
+  justify-content: center;
+}
+.box-7-title a {
+  font-size: 50px;
+  font-family: "Playfair Display", serif;
+  font-weight: lighter;
+  color: #333333;
+  padding-top: 80px;
+}
+.box-7-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  flex-direction: column;
+  margin: 80px 300px;
+}
+.box-text-7 {
+  display: flex;
+  color: #529f0f;
+  font-style: italic;
+  font-weight: bold;
+  font-family: "Lora", serif;
+  padding-top: 30px;
+}
+.box-7-img h3 {
+  font-family: "Lora", serif;
+  font-weight: lighter;
+  font-size: 25px;
+}
+.box-7-img p {
+  color: #6d6a6a;
+  font-size: 20px;
+  line-height: 30px;
+}
+.text-7 {
+  color: #575757;
+  font-weight: bold;
+  display: flex;
+  padding-top: 30px;
 }
