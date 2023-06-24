@@ -26,38 +26,6 @@ header {
 #check {
   display: none;
 }
-@media only screen and (max-width: 640px) {
-  .menu a {
-    color: white;
-  }
-  .menu_icon {
-    display: block;
-    position: fixed;
-    top: 35px;
-    left: 35px;
-    cursor: pointer;
-  }
-  .menu-container ul {
-    display: block;
-    position: fixed;
-    top: 70px;
-    left: -200%;
-    background-color: #333333;
-    width: 100%;
-    height: 100vh;
-    right: 0;
-  }
-  .menu-container ul li {
-    padding: 2rem;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-  }
-  #check:checked ~ ul {
-    left: 0;
-    transition: all 0.25s;
-  }
-}
 
 .logo-header {
   grid-column-start: 2;
@@ -497,4 +465,78 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media only screen and (max-width: 640px) {
+  .menu a {
+    color: white;
+  }
+  .menu_icon {
+    display: block;
+    position: fixed;
+    top: 35px;
+    left: 35px;
+    cursor: pointer;
+  }
+  .menu-container ul {
+    display: block;
+    position: fixed;
+    top: 70px;
+    left: -200%;
+    background-color: #333333;
+    width: 35%;
+    height: 100vh;
+    right: 0;
+  }
+  .menu-container ul li {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  #check:checked ~ ul {
+    left: 0;
+    transition: all 0.25s;
+  }
+  .box-2 {
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: 2%;
+  }
+  .box-3 {
+    margin-top: 120vw;
+    height: 400vh;
+    padding: 50rm;
+  }
+  .products-box {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .product-img-1 {
+    margin-left: 3%;
+    margin-bottom: 80%;
+  }
+  .product-img-1 a img {
+    width: 85vw;
+  }
+  .porce p {
+    position: relative;
+    top: -90vw;
+    width: 90px;
+    height: 90px;
+    margin-left: 5%;
+    font-size: 25px;
+  }
+  .img-text {
+    position: relative;
+    top: -15%;
+  }
+  .product-img-2 {
+    margin-left: 3%;
+  }
+  .product-img-2 a img {
+    width: 85vw;
+    margin-top: -80vw;
+  }
+  .box-4 {
+  }
 }
