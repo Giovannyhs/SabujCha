@@ -1,3 +1,9 @@
+html,
+body {
+  width: 100% !important;
+  overflow-x: hidden !important;
+}
+
 header {
   margin-top: 2%;
   display: grid;
@@ -472,7 +478,7 @@ span {
   }
   .menu_icon {
     display: block;
-    position: fixed;
+    position: absolute;
     top: 35px;
     left: 35px;
     cursor: pointer;
@@ -483,7 +489,7 @@ span {
     top: 70px;
     left: -200%;
     background-color: #333333;
-    width: 35%;
+    width: 100%;
     height: 100vh;
     right: 0;
   }
@@ -505,7 +511,6 @@ span {
   .box-3 {
     margin-top: 120vw;
     height: 400vh;
-    padding: 50rm;
   }
   .products-box {
     display: grid;
@@ -538,5 +543,79 @@ span {
     margin-top: -80vw;
   }
   .box-4 {
+    font-size: 25px;
+    margin: 10% 5%;
+  }
+  .box-5 {
+    height: 810vh;
+  }
+  .box-5-img {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .new-img {
+    margin-left: -35%;
+  }
+  .porce-1 p {
+    position: relative;
+    top: -90vw;
+    width: 90px;
+    height: 90px;
+    margin-left: 5%;
+    font-size: 25px;
+  }
+  .new-img a img {
+    width: 85vw;
+  }
+  .img-text-1 {
+    display: block;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 150px;
+  }
+  .sub {
+    padding: 0 10%;
+  }
+  .box-7 {
+    height: 380vh;
+  }
+  .box-7-content {
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: 5%;
+  }
+  .box-7-img {
+    margin-bottom: 10%;
+  }
+  .box-7-img a img {
+    width: 85vw;
+  }
+  .box-7-img a {
+    font-size: 25px;
+  }
+  .box-7-img p {
+    font-size: 25px;
+  }
+  .box-7-img h3 {
+    font-size: 30px;
+  }
+  /*.logos-footer {
+    display: none;
+    background-image: url(/Imagenes/1.jpg);
+  }*/
+  .info-footer {
+    display: block;
+    flex-direction: column;
+    height: 200vh;
+  }
+  .info-lis {
+    margin-bottom: -5%;
+  }
+  .fecha-logos {
+    display: grid;
+    grid-template-columns: auto;
+    padding-left: 15%;
+    justify-content: left;
+    letter-spacing: 2px;
   }
 }
