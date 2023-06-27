@@ -510,7 +510,7 @@ span {
   }
   .box-3 {
     margin-top: 120vw;
-    height: 400vh;
+    height: 450vh;
   }
   .products-box {
     display: grid;
@@ -547,7 +547,7 @@ span {
     margin: 10% 5%;
   }
   .box-5 {
-    height: 810vh;
+    height: 900vh;
   }
   .box-5-img {
     display: grid;
@@ -577,7 +577,7 @@ span {
     padding: 0 10%;
   }
   .box-7 {
-    height: 380vh;
+    height: 420vh;
   }
   .box-7-content {
     display: grid;
@@ -606,7 +606,7 @@ span {
   .info-footer {
     display: block;
     flex-direction: column;
-    height: 200vh;
+    height: 225vh;
   }
   .info-lis {
     margin-bottom: -5%;
